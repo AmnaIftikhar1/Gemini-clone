@@ -56,10 +56,11 @@ Open the integrated terminal in VS Code and run:
   
 5. **Add Your API Key**
 
-Once you’ve generated your API key, add it to the Gemini.js file. Insert the API key in the apiKey variable, like so:
+Once you’ve generated your API key, add it to the .env file. Insert the API key in the apiKey variable, like so:
 
-apiKey = "YOUR_API_KEY_HERE";<br>
-Replace "YOUR_API_KEY_HERE" with the actual API key you received from Gemini.
+- **Create a ***.env*** File**: In the root directory of your project (the same level as your package.json), create a .env file. Add your Gemini API key to this file like so:
+
+VITE_GEMINI_API_KEY=your-api-key-here
 
 ## How to Run the Project Locally
 1. Clone the repository or set up the project as described above.
