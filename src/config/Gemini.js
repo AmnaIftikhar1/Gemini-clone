@@ -1,4 +1,4 @@
-/*AIzaSyCqWgcB6PelsXxoWRCY9WAftgxY_28HGnw*/
+
 import {
     GoogleGenerativeAI,
     //eslint-disable-next-line no-unused-vars
@@ -15,7 +15,7 @@ if (typeof process !== 'undefined' && process.env) {
   apiKey = process.env.GEMINI_API_KEY;
 } else {
   // In the browser, fallback to a default API key or inject it during build time
-  apiKey = import.meta.env.VITE_GEMINI_API_KEY; // Replace with a browser-compatible key
+  apiKey = 'AIzaSyCqWgcB6PelsXxoWRCY9WAftgxY_28HGnw';  // Replace with a browser-compatible key
 }
 
 const genAI = new GoogleGenerativeAI(apiKey);
